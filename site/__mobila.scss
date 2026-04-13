@@ -1,0 +1,365 @@
+@media (max-width: 767px) {
+
+    header {
+        border: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+    }
+
+    .header {
+        padding: 16px;
+        justify-content: normal;
+
+
+        &__nav-box {
+            display: none;
+        }
+
+        &__mob {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            padding-right: 16px;
+        }
+
+        &__logo-img {
+            width: 99px;
+        }
+    }
+
+    .header input {
+        display: none;
+    }
+
+
+    .section1 {
+        padding-left: calc(50% - 600px);
+        padding-right: calc(50% - 600px);
+
+        &__zag {
+            font-size: 48px;
+            text-align: center;
+        }
+
+        &__par {
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .section1__ssilka {
+            font-size: 14px;
+            text-align: center;
+            display: block;
+        }
+    }
+
+
+    .section2 {
+        margin-top: 32px;
+        margin-bottom: 32px;
+
+        &__zag {
+            font-size: 24px;
+            padding-left: 16px;
+        }
+
+        &__grid {
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        &__grid-top {
+            height: 244px;
+        }
+
+        &__grid-middle {
+            height: 375px;
+        }
+    }
+
+    .obz {
+        grid-column: 1/-1;
+        font-size: 28px;
+
+    }
+
+    .section-spec {
+        padding-top: 0;
+
+
+        &__art {
+            width: 343px;
+        }
+
+        &__zag {
+            font-size: 24px;
+            line-height: normal;
+        }
+
+        &__wrapper {
+            justify-content: center;
+        }
+
+        &__art1-zag {
+            font-size: 18px;
+        }
+
+        &__par1 {
+            font-size: 14px;
+        }
+
+        &__par3 {
+            font-size: 14px;
+        }
+
+        &__par2 {
+            font-size: 14px;
+        }
+    }
+
+    .section3 {
+        margin-top: 36px;
+        margin-bottom: 32px;
+
+        &__zag {
+            font-size: 24px;
+
+        }
+
+        &__art1-zag {
+            font-size: 18px;
+        }
+
+        &__par1 {
+            font-size: 14px;
+        }
+
+        &__par3 {
+            font-size: 18px;
+        }
+    }
+
+
+    .pr-foot {
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+    }
+
+    .footer {
+
+        &__img-box {
+            display: none;
+        }
+
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            row-gap: 62px;
+            column-gap: 80px;
+            max-width: 343px;
+        }
+
+        &__menu-box {
+            padding-left: 16px;
+        }
+
+        &__cont-box {
+            padding-right: 16px;
+        }
+
+        &__btn-box {
+            align-self: center;
+            margin-bottom: 33px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
+    .section-spec img {
+        width: 343px;
+    }
+
+
+    .section3 img {
+        width: 343px;
+    }
+
+    // ###############################РАЗДЕЛ КАТАЛОГА########################################################
+
+    .header1 {
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+
+        justify-content: normal;
+
+        &__logo {
+            width: 99px;
+        }
+
+        &__hide {
+            display: none;
+        }
+    }
+
+    .section1-cat {
+        margin-top: 82px;
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+
+        &__zag {
+            font-size: 48px;
+            text-align: center;
+
+        }
+    }
+
+
+    .section3 {
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+
+        &__art {
+            width: 343px;
+        }
+
+        &__container-cat {}
+
+        &__zag-cat {
+            grid-column: 1/-1;
+            order: 1;
+        }
+
+        &__btn-box-pos {
+            grid-column: 1/-1;
+            order: 3;
+        }
+
+        &__select-css {
+            grid-column: 1/-1;
+            order: 2;
+        }
+
+        &__zag-cat {
+            font-size: 14px;
+        }
+
+        &__form {
+            left: 0;
+            width: 276px;
+        }
+
+        &__container-form {
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        &__btn-box {
+            justify-content: center;
+        }
+    }
+
+
+    .but-cat-2 {
+        width: 203px;
+    }
+
+    // ###################################### КОРЗИНА ###########################################
+
+    #size {
+        font-size: 48px;
+    }
+
+    .top-cart {
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+
+        &__logo {
+            width: 99px;
+            padding-left: 16px;
+        }
+
+        &__hide {
+            display: none;
+        }
+
+        &__zag {
+            font-size: 48px;
+            text-align: center;
+        }
+
+        &__section1 {
+            margin-top: 82px;
+        }
+
+        &__mob {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            padding-right: 16px;
+
+        }
+    }
+
+    .cart {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+
+
+        &__name {
+            display: none;
+        }
+
+        &__img-tovar {
+            display: none;
+        }
+
+        &__left {}
+
+        &__item {
+            justify-content: left;
+            max-width: 343px;
+        }
+
+        &__buttons-box {
+            justify-content: left;
+            max-width: 343px;
+        }
+
+        &__zakaz {
+            margin: 0;
+            max-width: 343px;
+        }
+
+        &__buttons {}
+    }
+
+    .black_but {
+        background-color: black;
+        color: white;
+    }
+
+    .section-spec {
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+    }
+
+    .section-spec__zag {
+        margin-top: 48px;
+        font-size: 24px;
+    }
+
+
+    .cart__cont {
+        padding-left: calc(50% - 171px);
+        padding-right: calc(50% - 171px);
+    }
+}
