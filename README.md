@@ -13,7 +13,7 @@
 ---
 
 ## 🚀 **Демо**
-**[Посетить сайт](https://ваш-username.github.io/interier-site)**  
+**[Посетить сайт](https://sidrik1.github.io/saitCatalog/site/index.html)**  
 *Сайт автоматически развертывается на GitHub Pages*
 
 ---
